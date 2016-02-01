@@ -3,7 +3,7 @@
 ### Installation
 
 ```bs
-npm install --save-dev eslint-config-react
+npm install --save-dev eslint-config-reactjs
 ```
 
 extend your `.eslintrc`:
