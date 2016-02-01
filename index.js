@@ -1,12 +1,13 @@
 module.exports = {
     "parser": "babel-eslint",
     "plugins": [
-      "react",
-      "objects"
+      "eslint-plugin-react",
+      "eslint-plugin-objects"
     ],
     "env": {
       "browser": true,
-      "node": true
+      "node": true,
+      "es6": true
     },
     "ecmaFeatures": {
       "arrowFunctions": true,
