@@ -1,0 +1,26 @@
+{
+  "name": "eslint-config-reactjs",
+  "version": "1.0.0",
+  "description": "Eslint config for React",
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iMasterAle/eslint-config-reactjs"
+  },
+  "bugs": {
+    "url": "https://github.com/iMasterAle/eslint-config-reactjs/issues",
+    "email": "imasterale@gmail.com"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "react"
+  ],
+  "author": "Alessandro Casazza",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^1.10.3",
+    "eslint-plugin-objects": "^1.1.1",
+    "eslint-plugin-react": "^3.16.1"
+  }
+}
