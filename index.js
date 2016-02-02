@@ -7,7 +7,8 @@ module.exports = {
     "env": {
       "browser": true,
       "node": true,
-      "es6": true
+      "es6": true,
+      "mocha": true
     },
     "ecmaFeatures": {
       "arrowFunctions": true,
@@ -34,7 +35,7 @@ module.exports = {
       "arrow-spacing": [2, {"before": true, "after": true}],
       "block-scoped-var": 2,
       "brace-style": [2, "1tbs", {"allowSingleLine": true}],
-      "camelcase": [2, {"properties": "always"}],
+      "camelcase": [1, {"properties": "always"}],
       "comma-dangle": [2, "never"],
       "comma-spacing": [2, {"before": false, "after": true}],
       "comma-style": [2, "last"],
@@ -147,12 +148,12 @@ module.exports = {
       "react/jsx-no-literals": 2,
       "react/jsx-no-undef": 2,
       "react/jsx-pascal-case": 2,
-      "react/jsx-quotes": 0,
+      "react/jsx-quotes": 2,
       "react/jsx-sort-prop-types": 0,
       "react/jsx-sort-props": 0,
       "react/jsx-uses-react": 2,
       "react/jsx-uses-vars": 2,
-      "react/no-danger": 2,
+      "react/no-danger": 0,
       "react/no-deprecated": 2,
       "react/no-did-mount-set-state": [2, "allow-in-func"],
       "react/no-did-update-set-state": 2,
