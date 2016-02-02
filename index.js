@@ -149,7 +149,6 @@ module.exports = {
     "react/jsx-no-literals": 2,
     "react/jsx-no-undef": 2,
     "react/jsx-pascal-case": 2,
-    "react/jsx-quotes": 2,
     "react/jsx-sort-prop-types": 0,
     "react/jsx-sort-props": 0,
     "react/jsx-uses-react": 2,
