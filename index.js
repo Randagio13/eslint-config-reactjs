@@ -1,8 +1,8 @@
 module.exports = {
     "parser": "babel-eslint",
     "plugins": [
-      "eslint-plugin-react",
-      "eslint-plugin-objects"
+      "react",
+      "objects"
     ],
     "env": {
       "browser": true,
