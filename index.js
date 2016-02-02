@@ -50,7 +50,7 @@ module.exports = {
       "indent": [2, 2, { "SwitchCase": 1 }],
       "init-declarations": [2, "always"],
       "jsx-quotes": [2, "prefer-double"],
-      "key-spacing": [2, {"beforeColon": false, "afterColon": true}],
+      "key-spacing": [2],
       "max-len": [1, 80, 4],
       "new-cap": [2, {"newIsCap": true}],
       "no-alert": 1,
