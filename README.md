@@ -13,6 +13,11 @@ extend your `.eslintrc`:
     "extends": "reactjs"
 }
 ```
+## PeerDependencies
+```json
+"eslint-plugin-objects": "^1.1.1",
+"eslint-plugin-react": "^3.16.1"
+```
 
 ## Rules Documentation
 
