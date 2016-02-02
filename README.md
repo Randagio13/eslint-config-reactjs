@@ -3,15 +3,20 @@
 ### Installation
 
 ```bs
-npm install --save-dev eslint-config-react
+npm install --save-dev eslint-config-reactjs
 ```
 
 extend your `.eslintrc`:
 
 ```json
 {
-    "extends": "eslint-config-reactjs"
+    "extends": "reactjs"
 }
+```
+## PeerDependencies
+```json
+"eslint-plugin-objects": "^1.1.1",
+"eslint-plugin-react": "^3.16.1"
 ```
 
 ## Rules Documentation
