@@ -10,7 +10,7 @@ extend your `.eslintrc`:
 
 ```json
 {
-    "extends": "eslint-config-reactjs"
+    "extends": "reactjs"
 }
 ```
 
