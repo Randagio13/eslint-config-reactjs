@@ -5,34 +5,24 @@ module.exports = {
     'react',
     'objects'
   ],
+  parserOptions: {
+    ecmaVersion: 6,
+    ecmaFeatures: {
+      jsx: true
+    },
+    sourceType: 'module'
+  },
   env: {
     browser: true,
     node: true,
     es6: true,
     mocha: true
   },
-  ecmaFeatures: {
-    arrowFunctions: true,
-    blockBindings: true,
-    classes: true,
-    defaultParams: true,
-    destructuring: true,
-    forOf: true,
-    generators: false,
-    modules: true,
-    objectLiteralComputedProperties: true,
-    objectLiteralDuplicateProperties: false,
-    objectLiteralShorthandMethods: true,
-    objectLiteralShorthandProperties: true,
-    spread: true,
-    superInFunctions: true,
-    templateStrings: true,
-    jsx: true
-  },
   globals: {
     React: true
   },
   rules: {
+    'no-case-declarations': 0,
     'no-unused-labels': 2,
     'no-self-assign': 2,
     'no-new-symbol': 2,
