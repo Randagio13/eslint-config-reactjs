@@ -33,6 +33,9 @@ module.exports = {
     React: true
   },
   rules: {
+    'no-unused-labels': 2,
+    'no-self-assign': 2,
+    'no-new-symbol': 2,
     'arrow-spacing': [2, {'before': true, 'after': true}],
     'block-scoped-var': 2,
     'brace-style': [2, '1tbs', {'allowSingleLine': true}],
