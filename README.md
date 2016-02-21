@@ -1,4 +1,4 @@
-# eslint-config-reactjs
+# eslint-config-reactjs [![npm version](https://badge.fury.io/js/eslint-config-reactjs.svg)](https://badge.fury.io/js/eslint-config-reactjs)
 
 ### Installation
 
