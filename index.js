@@ -19,7 +19,8 @@ module.exports = {
     mocha: true
   },
   globals: {
-    React: true
+    React: true,
+    ReactDOM: true
   },
   rules: {
     'no-case-declarations': 0,

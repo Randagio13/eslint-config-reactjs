@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-reactjs",
   "version": "1.0.0",
-  "description": "Eslint config for React",
+  "description": "Eslint config for React project",
   "main": "./index.js",
   "repository": {
     "type": "git",
