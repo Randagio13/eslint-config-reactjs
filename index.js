@@ -5,34 +5,28 @@ module.exports = {
     "react",
     "objects"
   ],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "sourceType": "module"
+  },
   "env": {
     "browser": true,
     "node": true,
     "es6": true,
     "mocha": true
   },
-  "ecmaFeatures": {
-    "arrowFunctions": true,
-    "blockBindings": true,
-    "classes": true,
-    "defaultParams": true,
-    "destructuring": true,
-    "forOf": true,
-    "generators": false,
-    "modules": true,
-    "objectLiteralComputedProperties": true,
-    "objectLiteralDuplicateProperties": false,
-    "objectLiteralShorthandMethods": true,
-    "objectLiteralShorthandProperties": true,
-    "spread": true,
-    "superInFunctions": true,
-    "templateStrings": true,
-    "jsx": true
-  },
   "globals": {
-    "React": true
+    "React": true,
+    "ReactDOM": true
   },
   "rules": {
+    "no-case-declarations": 0,
+    "no-unused-labels": 2,
+    "no-self-assign": 2,
+    "no-new-symbol": 2,
     "arrow-spacing": [2, {"before": true, "after": true}],
     "block-scoped-var": 2,
     "brace-style": [2, "1tbs", {"allowSingleLine": true}],
@@ -123,11 +117,10 @@ module.exports = {
     "radix": 2,
     "semi-spacing": [2, {"before": false, "after": true}],
     "semi": [2, "always"],
-    "space-after-keywords": 2,
+    "keyword-spacing": 2,
     "space-before-blocks": 2,
     "space-before-function-paren": [2, "never"],
     "space-infix-ops": 2,
-    "space-return-throw-case": 2,
     "spaced-comment": 2,
     "strict": [2, "never"],
     "use-isnan": 2,
