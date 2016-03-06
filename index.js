@@ -48,7 +48,7 @@ module.exports = {
     "key-spacing": [2],
     "max-len": [1, 80, 4],
     "new-cap": [2, {"newIsCap": true}],
-    "no-alert": 1,
+    "no-alert": 2,
     "no-caller": 2,
     "no-class-assign": 2,
     "no-cond-assign": [2, "always"],
