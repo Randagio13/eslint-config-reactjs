@@ -161,7 +161,7 @@ module.exports = {
     "react/react-in-jsx-scope": 2,
     "react/require-extension": 0,
     "react/self-closing-comp": 2,
-    "react/wrap-multilines": 2,
+    "react/jsx-wrap-multilines": 2,
     "react/sort-comp": [2, {
       "order": [
         "constructor",
