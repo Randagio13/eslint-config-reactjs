@@ -19,7 +19,11 @@
   "author": "Alessandro Casazza",
   "license": "MIT",
   "peerDependencies": {
+    
     "eslint-plugin-objects": ">=1.1.1",
-    "eslint-plugin-react": ">=3.16.1"
+    "eslint-plugin-react": ">=6.10.0"
+  },
+  "dependencies": {
+    "eslint-config-standard": "^7.1.0"
   }
 }
